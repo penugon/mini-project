@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Test Suite" parallel="tests">
+    <test name="LoginTest" >
+        <classes>
+            <class name="LoginPageTest" />
+        </classes>
+    </test>
+
+    <test name="HomeTest" >
+        <classes>
+            <class name="HomePageTest" />
+        </classes>
+    </test>
+
+    <test name="HeaderPageTest" >
+        <classes>
+            <class name="HeaderSectionTest" />
+        </classes>
+    </test>
+
+    <test name="PopularTest" >
+        <classes>
+            <class name="PopularPageTest" />
+        </classes>
+    </test>
+
+    <test name="SearchTest" >
+        <classes>
+            <class name="SearchPageTest" />
+        </classes>
+    </test>
+
+    <test name="MovieDetailsTest" >
+        <classes>
+            <class name ="MovieDetailsPageTest" />
+        </classes>
+    </test>
+
+    <test name="AccountTest" >
+        <classes>
+            <class name="AccountPageTest" />
+        </classes>
+    </test>
+
+</suite>
